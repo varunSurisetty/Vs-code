@@ -1,3 +1,4 @@
+package fibanocci;
 class HelloWorld {
     public static void main(String[] args) {
         int a=0;
@@ -6,10 +7,10 @@ class HelloWorld {
         int sum=0;
         while (sum<100) 
         {
+        System.out.println(sum); 
         sum=a+b;
         a=b;
         b=sum;
-        System.out.println(sum); 
         }
 
     }
