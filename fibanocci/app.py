@@ -3,7 +3,7 @@ b=1
 sum=0
 print(a)
 while(sum<100):
-    print(sum)
-    sum=a+b
-    a=b
-    b=sum
+	print(sum)
+	sum=a+b
+	a=b
+	b=sum
